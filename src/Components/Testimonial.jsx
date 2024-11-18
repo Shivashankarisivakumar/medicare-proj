@@ -7,26 +7,26 @@ import testimonial4 from "../Assets/testimonial4.jpg"
 
 // Sample testimonials array with 5 different reviews
 const testimonials = [
-    {
-        src: testimonial1,
-        text:  "Dr. Smith was incredible throughout my pregnancy. She provided me with exceptional care and made sure I was comfortable and informed at every stage. I couldn't have asked for a better experience during my first pregnancy!",
-        name: "Marry Laura"
-    },
-    {
-        src: testimonial2,
-        text: "After suffering from chronic back pain for years, I finally found relief with Dr. Williams. His thorough diagnosis and treatment plan have significantly improved my quality of life. Highly recommend him!",
-        name: "john"
-    },
-    {
-        src: testimonial3,
-        text: "Dr. Lee’s office is fantastic. The hygienists are gentle and thorough, and Dr. Lee always takes the time to discuss my dental health in detail. I trust him completely with my dental care.",
-        name: "Saul goodman"
-    },
-    {
-        src: testimonial4,
-        text: "Dr. Taylor has been our pediatrician since my daughter was born. She is incredibly knowledgeable and always takes the time to answer all of our questions. My kids love her, and we trust her completely with their care.",
-        name: "Sara wilson"
-    },
+  {
+    src: "../Assets/testimonial1.jpg",
+    text: "Dr. Smith was incredible throughout my pregnancy. She provided me with exceptional care and made sure I was comfortable and informed at every stage. I couldn't have asked for a better experience during my first pregnancy!",
+    name: "Marry Laura",
+  },
+  {
+    src: "../Assets/testimonial2.jpg",
+    text: "After suffering from chronic back pain for years, I finally found relief with Dr. Williams. His thorough diagnosis and treatment plan have significantly improved my quality of life. Highly recommend him!",
+    name: "john",
+  },
+  {
+    src: "../Assets/testimonial3.jpg",
+    text: "Dr. Lee’s office is fantastic. The hygienists are gentle and thorough, and Dr. Lee always takes the time to discuss my dental health in detail. I trust him completely with my dental care.",
+    name: "Saul goodman",
+  },
+  {
+    src: "../Assets/testimonial4.jpg",
+    text: "Dr. Taylor has been our pediatrician since my daughter was born. She is incredibly knowledgeable and always takes the time to answer all of our questions. My kids love her, and we trust her completely with their care.",
+    name: "Sara wilson",
+  },
 ];
 
 const TestimonialSlider = () => {
